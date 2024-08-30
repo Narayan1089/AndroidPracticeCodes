@@ -55,4 +55,9 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:2.5.0")
 
     implementation("com.squareup.picasso:picasso:2.71828")
+
+    val lifecycleVersion = "2.6.1"
+
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
 }
